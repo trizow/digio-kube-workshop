@@ -1,0 +1,14 @@
+---
+controller:
+  scope:
+    enabled: true
+    namespace: troybebee
+
+  metrics:
+    enabled: true
+    service:
+      annotations:
+          prometheus.io/scrape: "true"
+
+  stats:
+    enabled: true
